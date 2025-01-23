@@ -1,0 +1,38 @@
+{
+  "name": "auto-upload-sever-plugin",
+  "version": "1.0.0",
+  "description": "自动打包webpack上传服务器插件",
+  "main": "./dist/bundle.cjs.js",
+  "module": "./dist/bundle.esm.js",
+  "browser": "./dist/bundle.umd.js",
+  "types": "./dist/type/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "upload",
+    "coderqsh",
+    "sever-plugin",
+    "SeverPlugin"
+  ],
+  "author": "coderqsh",
+  "npm": "https://registry.npmmirror.com/",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.10.7",
+    "rollup": "^4.31.0",
+    "ts-lib": "^0.0.5",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "node-ssh": "^13.2.0"
+  }
+}
