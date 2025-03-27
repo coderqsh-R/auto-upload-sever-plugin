@@ -17,8 +17,8 @@ const config = {
     }),
     new AutoUploadSeverPlugin({
       host: "119.91.42.105",
-      username: "root",
-      password: "QUshihang123",
+      username: "****",
+      password: "****",
       remotePath: "/usr/share/nginx/html/webpack"
     })
   ]
